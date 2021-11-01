@@ -1,0 +1,22 @@
+h1{text-align: center; background-color: black; color: white; padding: 10px; width: 30%; margin: auto; font-size: 16px;}
+.studentform{width: 60%; background-color: grey; padding: 10px; margin: auto;}
+.studentform .formRow{width: 100%; display: flex; justify-content: space-between; padding: 5px;}
+.studentform .formRow .col{width: 42%; margin-top: 10px; margin-bottom: 10px;}
+.studentform input{padding: 10px; border: 1px solid white;}
+.studentform #save{background-color: green; color: white; font-size: 20px; border: 1px solid green;}
+.studentform #update{background-color: orange; color: white; font-size: 20px;
+border: 1px solid #ffa500;}
+.studentform #clear{background-color: red; color: white; font-size: 20px;
+    border: 1px solid red; height: 50px; width: 65px; }
+/* table design */
+.table{width: 50%; background-color: rgb(209, 209, 209); margin: auto; margin-top: 20px;}
+.table .th{ background-color: rgb(15, 14, 14); font-size: 15px; font-weight: 700; padding: 10px; color: white;}
+.table .row{width: 100%; display: flex; justify-content: space-between;}
+.table .row .tcol{width: 16.5%; text-align: left;}
+.table .row .tcols{width: 25.5%; text-align: center;}
+.table .th .tb .row .tcol{padding: 5px;}
+.table .th .tb .row .tcols{padding: 5px;}
+.through{
+    text-decoration: line-through;
+}
+#save:hover, #update:hover, #clear:hover{opacity: 0.8; }
